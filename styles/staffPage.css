@@ -1,0 +1,28 @@
+.wrapper .staffWrapper {
+  margin-left: 15px;
+  margin-right: 15px; }
+  .wrapper .staffWrapper .pageHeading {
+    color: #50b490;
+    text-align: center;
+    padding-bottom: 10px;
+    font-weight: bold; }
+  .wrapper .staffWrapper .row {
+    margin-bottom: 15px;
+    border: 5px solid white;
+    margin-left: 15px;
+    margin-right: 15px; }
+  .wrapper .staffWrapper .facultyAndAdministration {
+    color: #50b490;
+    text-align: center;
+    padding-bottom: 10px;
+    font-weight: bold; }
+  .wrapper .staffWrapper .col-lg-4 {
+    margin: 10px 0px; }
+  .wrapper .staffWrapper .card-title {
+    color: #50b490; }
+  .wrapper .staffWrapper .card .card-footer a {
+    color: #007bff; }
+.wrapper #footerContent {
+  margin-top: -15px; }
+
+/*# sourceMappingURL=staffPage.css.map */

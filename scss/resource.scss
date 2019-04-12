@@ -1,0 +1,31 @@
+.wrapper{
+
+    #resourceWrapper{
+
+        .list-group-item{          
+
+            .resourceName h5{
+                font-weight: bold;
+                font-size: 18px;
+                display: inline;
+                padding-left: 10px;
+            }
+    
+            .resourceName h5:hover{
+                text-decoration: none;
+            }
+
+            .resourceName a .fa-download{
+                float: right;
+            }
+
+            .resourceName a .fa-hand-point-up{
+                float: right;
+            }
+
+            p{
+                padding-top: 20px;
+            }
+        }
+    }
+}

@@ -1,0 +1,7 @@
+{
+"version": 3,
+"mappings": "AAMY,2DAAgB;EACZ,WAAW,EAAE,IAAI;EACjB,SAAS,EAAE,IAAI;EACf,OAAO,EAAE,MAAM;EACf,YAAY,EAAE,IAAI;AAGtB,iEAAsB;EAClB,eAAe,EAAE,IAAI;AAGzB,uEAA4B;EACxB,KAAK,EAAE,KAAK;AAGhB,4EAAiC;EAC7B,KAAK,EAAE,KAAK;AAGhB,4CAAC;EACG,WAAW,EAAE,IAAI",
+"sources": ["../scss/resource.scss"],
+"names": [],
+"file": "resource.css"
+}

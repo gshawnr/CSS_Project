@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Resource Page</title>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+  <link rel="stylesheet" href="../styles/resource.css">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script>
+      $(function(){
+          var filename = "./header.html"
+          $("#navbarContent").load(filename);
+      });
+  </script>
+</head>
+  <body>
+    <div class="wrapper">
+    <div id="navbarContent"></div>
+    <br>
+    <div class="wrapperBody">
+      <h5 class="pageHeading">E-RESOURCES</h5>
+      <ul class="list-group">
+        <li class="list-group-item">
+          <span class="resourceName"><img src="../images/Visual-Studio.png" alt="Visual studio logo" style="max-height:2em; max-width:2em">
+            <h5>Visual Studio Community 2017</h5>
+            <a target="_blank" href="https://visualstudio.microsoft.com/downloads/">
+              <i class="fa fa-download">Download</i></a>
+          </span> 
+          <p>Microsoft Visual Studio is an integrated development environment from Microsoft. Free, fully-featured IDE for students, open-source and individual developers.</p>
+        </li>
+        <li class="list-group-item">
+          <span class="resourceName"><img src="../images/mssql-logo.png" alt="MS SQL Server logo" style="max-height:2em; max-width:2em">
+            <h5>Microsoft SQL Server 2014 Express</h5>
+            <a target="_blank" href="https://www.microsoft.com/en-ca/download/details.aspx?id=42299">
+              <i class="fa fa-download">Download</i></a>
+          </span> 
+          <p>Microsoft SQL Server 2014 Express is a powerful and reliable free data management system that delivers a rich and reliable data store for lightweight Web Sites and desktop applications.</p>
+        </li>
+        <li class="list-group-item">
+          <span class="resourceName"><img src="../images/Visual-Studio-Code.png" alt="Visual studio code logo" style="max-height:2em; max-width:2em">
+            <h5>Visual Studio Code</h5>
+            <a target="_blank" href="https://code.visualstudio.com/download">
+              <i class="fa fa-download">Download</i></a>
+          </span> 
+          <p>Visual Studio Code is a lightweight but powerful source code editor which runs on your desktop and is available for Windows, macOS and Linux.</p>
+        </li>
+        <li class="list-group-item">
+          <span class="resourceName"><img src="../images/logo-eclipse.png" alt="Eclipse logo" style="max-height:2em; max-width:2em">
+            <h5>Eclipse</h5>
+            <a target="_blank" href="https://www.eclipse.org/downloads/">
+              <i class="fa fa-download">Download</i></a>
+          </span> 
+          <p>Eclipse is an integrated development environment (IDE) used in computer programming, and is the most widely used Java IDE.</p>
+        </li>
+
+        <br>
+        <h5 class="text-uppercase pageHeading">Helpful Online Resources Links</h5>
+
+        <li class="list-group-item">
+          <span class="resourceName"><img src="../images/w3schools.jpg" alt="w3school logo" style="max-height:2em; max-width:2em">
+            <h5>W3Schools</h5>
+            <a target="_blank" href="https://www.w3schools.com/">
+              <i class="fa fa-hand-point-up">Visit</i></a>
+          </span> 
+          <p>W3Schools is an educational website for learning web technologies online. Content includes tutorials and references relating to HTML, CSS, JavaScript, JSON, PHP, Python, AngularJS, SQL, Bootstrap, Node.js, jQuery, XQuery, AJAX, XML, and Java.</p>
+        </li>
+        <li class="list-group-item">
+          <span class="resourceName"><img src="../images/csstricks.jpg" alt="CSSTricks logo" style="max-height:2em; max-width:2em">
+            <h5>CSS Tricks</h5>
+            <a target="_blank" href="https://css-tricks.com/">
+              <i class="fa fa-hand-point-up">Visit</i></a>
+          </span> 
+          <p>Tips, Tricks, and Techniques on using Cascading Style Sheets.</p>
+        </li>
+        <li class="list-group-item">
+          <span class="resourceName"><img src="../images/freecodecamp.jpg" alt="freeCodeCamp logo" style="max-height:2em; max-width:2em">
+            <h5>freeCodeCamp</h5>
+            <a target="_blank" href="https://www.freecodecamp.org/">
+              <i class="fa fa-hand-point-up">Visit</i></a>
+          </span> 
+          <p>freeCodeCamp is a non-profit organization that consists of an interactive learning web platform, an online community forum, chat rooms, Medium publications and local organizations that intend to make learning web development accessible to anyone.</p>
+        </li>
+        <li class="list-group-item">
+          <span class="resourceName"><img src="../images/modzilla.jpg" alt="freeCodeCamp logo" style="max-height:2em; max-width:2em">
+            <h5>MDN Web Docs</h5>
+            <a target="_blank" href="https://developer.mozilla.org/en-US/">
+              <i class="fa fa-hand-point-up">Visit</i></a>
+          </span> 
+          <p>MDN Web Docs, previously Mozilla Developer Network and formerly Mozilla Developer Center, is the official Mozilla website for development documentation of web standards and Mozilla projects.</p>
+        </li>          
+      </ul>     
+    </div>
+    <div id="footerContent"></div>
+    <script>
+      $(function(){
+          var filename = "./footer.html"
+          $("#footerContent").load(filename);
+      });
+  </script>
+  </div>
+  </body>
+</html>

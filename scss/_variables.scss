@@ -1,0 +1,31 @@
+// Variables
+
+// Site Colours
+
+// BG Colours
+$bg-wrapper-color: white;
+
+// Site Colours
+$site-stars-color: #ffde00;
+$site-stars-base-color: #cac8c8;
+
+//Layout Variables
+$site-width: 1920px;
+$padding: rem(30);
+$gutter: 2; // essentially 2%
+// $header-height: 76px;
+// $header-height-mobile: 54px;
+$header-font-size: 30px;
+
+// Columns
+$one-col: 100%;
+$two-col: col-width(2);
+
+// Utility variables
+$link-hover-selector: '&:hover, &:focus, &:active';
+
+// Breakpoints
+// $tablet-landscape: em(1024);
+$tablet-landscape-medium: em(860);
+$phone-wide: 600px;
+$phone: em(480);
