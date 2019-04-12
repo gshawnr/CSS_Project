@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Course Summary Page</title>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+  <link rel="stylesheet" href="../styles/course.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script>
+      $(function(){
+          var filename = "./header.html"
+          $("#navbarContent").load(filename);
+      });
+  </script>
+</head>
+  <body>
+    <div class="wrapper">
+    
+      <div id="navbarContent"></div>
+
+      <!-- Card Group Start -->
+      <br>
+      <div class="wrapperBody">
+          <div class="courseSummeries">
+            <h5 class="pageHeading">COURSE SUMMERIES</h5>
+          </div>
+          <div class="row">
+            <div class="col-lg-4 col-md-6 col-sm-12">
+              <div class="card">
+                <div class="card-body">
+                  <h5 class="card-title">SSDP 1501</h5>
+                  <h6>Systems Foundations 1</h6>
+                  <hr>
+                  <p class="card-text">SSDP 1501 provides a broad introduction to the software development life cycle for the web. Common systems analysis and design models, including UML, are examined using case studies. Professional looking, device responsive and valid client-side web scripting is introduced with current and cross-browser compliant HTML. A comprehensive study in object-oriented programming fundamentals is delivered through exercises and projects using C#. </p>          
+                </div>
+                <div class="card-footer">
+                    <a target=_blank href="https://www.bcit.ca/study/outlines/ssdp1501"><span><i class="fa fa-file-alt"></i></span> Course Outline</a>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-4 col-md-6 col-sm-12">
+              <div class="card">
+                <div class="card-body">
+                  <h5 class="card-title">SSDP 2501</h5>
+                  <h6>Systems Foundations 2</h6>
+                  <hr>
+                  <p class="card-text">This course examines effective hardware and software architectures for web development while also introducing object-oriented server-side programming. Labs and projects require assembly and use of development platforms for web development. Students write advanced HTML and CSS for the client combined with Java for device responsive server-side deployment.</p>
+                </div>
+                <div class="card-footer">
+                  <a target=_blank href="https://www.bcit.ca/study/outlines/ssdp2501"><span><i class="fa fa-file-alt"></i></span> Course Outline</a>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-4 col-md-6 col-sm-12">
+              <div class="card">
+                <div class="card-body">
+                  <h5 class="card-title">SSDP 3501</h5>
+                  <h6>Systems Foundations 3</h6>
+                  <hr>
+                  <p class="card-text">SSDP 3501 introduces dynamic data-driven web development using both .NET and freeware platforms and tools. Industry accepted relational database design and SQL coding are practiced using Microsoft SQL Server and MySQL. Exercises and projects combine database development with scripting and code including HTML, Javascript, PHP, and C# with ASP.NET for web application development.</p>
+                </div>
+                <div class="card-footer">
+                  <a target=_blank href="https://www.bcit.ca/study/outlines/ssdp3501"><span><i class="fa fa-file-alt"></i></span> Course Outline</a>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-4 col-md-6 col-sm-12">
+              <div class="card">
+                <div class="card-body">
+                  <h5 class="card-title">SSDP 4001</h5>
+                  <h6>Specialty Topics</h6>
+                  <hr>
+                  <p class="card-text">Topics in this course round out knowledge gained in prior courses for building web applications that have all the standard features of typical subscriber-access or point-of-sale web solutions. At the end of this course, students are expected to be able to design and build intuitive, device responsive, safe, secure, scalable, and robust commercial applications. As well, this course emphasizes tool and platform selection for effective team development.</p>
+                </div>
+                <div class="card-footer">
+                  <a target=_blank href="https://www.bcit.ca/study/outlines/ssdp4001"><span><i class="fa fa-file-alt"></i></span> Course Outline</a>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-4 col-md-6 col-sm-12">
+              <div class="card">
+                <div class="card-body">
+                  <h5 class="card-title">SSDP 5001</h5>
+                  <h6>Projects</h6>
+                  <hr>
+                  <p class="card-text">This course integrates all soft and technical skills covered during the program through work in two major team projects. The first project is an internal project to design and build a data-driven commercial web site. The second project involves a four-week term with an industry client to build a web site or web site component. Both projects require agile systems analysis and design, project planning and management, communication of design and progress, professional presentation, and data driven website development.</p>
+                </div>
+                <div class="card-footer">
+                  <a target=_blank href="https://www.bcit.ca/study/outlines/ssdp5001"><span><i class="fa fa-file-alt"></i></span> Course Outline</a>
+                </div>
+              </div>
+            </div>
+          </div>
+            <!-- Card Group End -->
+          </div>   
+        <div id="footerContent"></div>
+        <script>
+          $(function(){
+              var filename = "./footer.html"
+              $("#footerContent").load(filename);
+          });
+      </script>
+    </div>
+  </body>
+</html>

@@ -1,0 +1,32 @@
+.wrapper{
+
+    .wrapperBody{
+
+        .generalInfo{
+            display: flex;
+            justify-content: space-between;
+
+            @media(max-width: 1050px){
+                flex-direction: column;
+
+            }
+
+            p{
+                border-right: 10px solid white;
+            }
+        }
+
+        .infoHeading{
+            color: white;
+            background: #50b490;
+            padding-top: 7.5px;
+            padding-bottom: 7.5px;
+            padding-left: 10px;
+            font-weight: bold;
+        }
+
+        .list-group{
+            margin-bottom : 10px;
+        }
+    }
+}
