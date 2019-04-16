@@ -6,7 +6,7 @@ header{
     nav {
            $border: 1px solid white;
            width: 100%;
-           background: #FD9A28;
+           background: rgb(89, 175, 201);
            height: 35px;
         
         .topnav{
@@ -24,7 +24,7 @@ header{
 
         a {
             display: block;
-            color:#2e5ec0;
+            color: white;
             text-align: center;
             font-size: 1.2em;
             text-decoration: none;
@@ -39,11 +39,11 @@ header{
         }
 
         a:hover:not(.icon){
-          border-top: 4px solid #50b490;
+          border-top: 4px solid white;
 
           @media(max-width: $phone-wide){
             border-top: none;
-            border-bottom: 4px solid #50b490;         
+            border-bottom: 4px solid rgb(182, 186, 242);        
           }
         }
         
@@ -78,7 +78,7 @@ header{
           visibility: visible;
           display: block;
           justify-content: flex-start;
-          background: #FD9A28;
+          background: rgb(182, 186, 242);
           width: 100%;
           margin: 0;
         }

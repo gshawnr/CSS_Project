@@ -12,7 +12,7 @@
          }
         
         #scheduleButton{
-            background: #50b490;
+            background: #031b81;
             color: white;
             font-weight: bold;
             margin-bottom: 5px;
@@ -35,7 +35,7 @@
         }
 
         .monthNameDropdown .btn-success{
-            background-color: #50b490;
+            background-color: #031b81;
             font-weight: bold;
         }
         
@@ -76,7 +76,7 @@
             width: 100%;
             height:40px;
             padding: 10px 0;
-            background: #50b490;
+            background: #031b81;
             text-align: center;
             color: white;
         }
@@ -87,7 +87,7 @@
             font-weight: bold;
         }
         .table tr:not(.monthName):not(.dayDateCourseInstructor):hover{
-            background-color: lavender;
+            background-color: rgb(89, 175, 201);
         }
         tbody tr:not(.monthName):not(.dayDateCourseInstructor){
             @media(max-width: $phone-wide){
@@ -148,7 +148,7 @@
             position: relative;
             text-align: center;
             color: white;
-            background-color: #50b490;
+            background-color: #031b81;
             font-weight: bold;
         }
 

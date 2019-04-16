@@ -5,7 +5,7 @@
     .wrapperBody{ 
         
         .table .thead{
-            background: #50b490;
+            background: #2e5ec0;
             @media (max-width: $phone-wide){
                 display: none;
             }
@@ -35,7 +35,7 @@
         }
 
         .table tr:not(.tableHeadingRow):hover{
-            background-color: lavender;
+            background-color: rgb(89, 175, 201);
         }
     }
 
