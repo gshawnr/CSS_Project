@@ -1,0 +1,19 @@
+.wrapper .wrapperBody .row {
+  margin-bottom: 15px; }
+.wrapper .wrapperBody .facultyAndAdministration {
+  color: white;
+  text-align: left;
+  font-weight: bold;
+  background: #2e5ec0;
+  padding-left: 10px;
+  padding-top: 7.5px;
+  padding-bottom: 7.5px; }
+.wrapper .wrapperBody .col-lg-4 {
+  margin: 10px 0px; }
+.wrapper .wrapperBody .card-title {
+  color: #2e5ec0;
+  font-weight: bold; }
+.wrapper .wrapperBody .card .card-footer a {
+  color: #007bff; }
+
+/*# sourceMappingURL=staff-page.css.map */
