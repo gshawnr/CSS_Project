@@ -7,7 +7,7 @@
       .wrapper .scheduleWrapper {
         display: block; } }
     .wrapper .scheduleWrapper #scheduleButton {
-      background: #031b81;
+      background: #2e5ec0;
       color: white;
       font-weight: bold;
       margin-bottom: 5px; }
@@ -23,7 +23,7 @@
         .wrapper .scheduleWrapper .monthNameDropdown {
           margin-top: -58px; } }
     .wrapper .scheduleWrapper .monthNameDropdown .btn-success {
-      background-color: #031b81;
+      background-color: #2e5ec0;
       font-weight: bold; }
     .wrapper .scheduleWrapper .dropdown-content {
       display: none;
@@ -52,7 +52,7 @@
       width: 100%;
       height: 40px;
       padding: 10px 0;
-      background: #031b81;
+      background: #2e5ec0;
       text-align: center;
       color: white; }
     .wrapper .scheduleWrapper .table .dayDateCourseInstructor {
@@ -96,7 +96,7 @@
     position: relative;
     text-align: center;
     color: white;
-    background-color: #031b81;
+    background-color: #2e5ec0;
     font-weight: bold; }
   @media (max-width: 900px) {
     .wrapper .weekendsGridContainer .weekendsGridContent {
