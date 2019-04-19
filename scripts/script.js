@@ -12,6 +12,7 @@ function toggleListView(){
         btn.innerText="Calendar View";
   }else {
       list.style.display="none";
+      grid.style.display="";
       btn.innerText="List View";  
       monthName.style.display="none";
   }
@@ -21,7 +22,7 @@ function toggleListView(){
 
 function toggleCalendarView(){
   var calView = document.getElementById("calendarView");
-  var filename = "../html/scheduleGridView.html";
+  var filename = "./scheduleGridView.html";
   $("#scheduleGridView").load(filename);
   // calView.classList.toggle("calendarView");
 }

@@ -4,18 +4,18 @@
 	<meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <title>Contact Page</title>
+  <title>Welcome Page</title>
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
-  <link rel="stylesheet" href="./styles/contact.css">
-  <link rel="stylesheet" href="./styles/styles.css">
   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+  <link rel="stylesheet" href="./styles/index.css">
+   <link rel="stylesheet" href="./styles/styles.css">
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
 </head>
   <body>
     <header>
         <div class="logoWithDescription">
             <div class="image">
-                <a href="./index.html"><img src="./images/bcit.JPG" alt="Bcit Image"></a>
+                <a href="./welcomePage.html"><img src="./images/bcit.JPG" alt="Bcit Image"></a>
             </div>
             <div class="programName">
                 <p>SCHOOL OF COMPUTING AND ACADEMIC STUDIES</p>
@@ -40,104 +40,92 @@
             </div>
         </nav> 
     </header>
-    <div class="wrapper">
-      <br>
-      <div class="wrapperBody">
-        <h5 class="pageHeading">CONTACT US</h5>
-        <section>
-          <h5 class="contactInfoAndForm">Contact Information</h5>
-          <div class="row">
-            <div class="col-lg-6 col-md-12 col-sm-12">
-              <div class="card">
-                <div class="card-body">
-                  <h5 class="card-title"><strong>For admission and program inquiries:</strong></h5>
-                  <p class="card-text">
-                    Phone: 604.412.7788<br>
-                    Fax: 604.408.0921<br>
-                    Email: HTP@bcit.ca
-                  </p>
-                  <a target="_blank" href="https://www.bcit.ca/about/downtown.shtml"><i class="fas fa-question-circle"></i>Campus Info</a>
-                </div>
-              </div>
-            </div>
-            <div class="col-lg-6 col-md-12 col-sm-12">
-              <div class="card">
-                <div class="card-body">
-                  <h5 class="card-title"><strong>Mailing address:</strong></h5>
-                  <p class="card-text">
-                      HTP Programs<br>
-                      BCIT Downtown Campus<br>
-                      350 - 555 Seymour Street<br>
-                      Vancouver, BC, Canada <br>
-                      V6B 3H6
-                  </p>
-                  <a target="_blank" href="https://www.google.ca/maps/place/555+Seymour+St,+Vancouver,+BC+V6B+3H6/@49.285461,-123.114645,14z/data=!4m5!3m4!1s0x54867178c92a69b9:0x6b40938af55472d6!8m2!3d49.2833851!4d-123.1153365?hl=en"><i class="fas fa-map-marker-alt"></i>Map and Direction</a>
-                </div>
-              </div>
-            </div>
-          </div>
-        </section>
+<script>
+    var topNavBar = document.getElementById("myTopnav");
 
-        <h5 class="contactInfoAndForm">Questions or comments?</h5>
-        <section class="contactForm">
-          <form>
-            <div class="form-group">
-              <label for="firstAndLastName">Name</label>
-              <input type="text" class="form-control" id="firstAndLastName" placeholder="First And Last Name" required>
-            </div>
-            <div class="form-group">
-              <label for="firstAndLastName">Email</label>
-              <input type="email" class="form-control" id="email" placeholder="Email Address" required>
-            </div>
-            <div class="form-group">
-              <label for="phone">Phone Number</label>
-              <input type="number" class="form-control" id="phone" placeholder="Phone Number" required>
-            </div>
-            <div class="form-group">
-              <label for="comment">Questions or Comments</label>
-              <textarea class="form-control" rows="5" id="comment" required></textarea>
-            </div>
+    function myFunction(){
+    topNavBar.classList.toggle('responsive');
+    }
+</script>
+</body>
+</html>
 
-            <div class="form-check">
-              <input class="form-check-input" type="radio" name="gridRadios" id="gridRadios1" value="current" checked>
-              <label class="form-check-label" for="gridRadios1">
-                Current Student
-              </label>
-            </div>
-            <div class="form-check">
-              <input class="form-check-input" type="radio" name="gridRadios" id="gridRadios2" value="prospective">
-              <label class="form-check-label" for="gridRadios2">
-                Prospective Student
-              </label>
-            </div>
-            <div class="form-check">
-              <input class="form-check-input" type="radio" name="gridRadios" id="gridRadios3" value="instructor">
-              <label class="form-check-label" for="gridRadios3">
-                Instructor
-              </label>
-            </div>
-            <button type="submit" class="btn btn-primary">Send</button>
-          </form>
-
-          <div class="reviewDetailedInfo">
-            <div>
-              <p>Please ensure you have reviewed the detailed information on this site, using the navigation to the right, before submitting the form below.
-              <br>
-              <br>
-              As well, if you meet any of the following criteria, please follow the links for more information, instead of sending the form:</p>
-              <ul>
-                <li>You are an <a target="_blank" href="https://www.bcit.ca/international/">international student</a></li>
-                <li>You are looking for <a target="_blank" href="https://www.bcit.ca/finaid/">financial aid</a></li>
-                <li>You have already applied and want to <a target="_blank" href="https://secure.bcit.ca/sis/apply/">check your application status</a></li>
-              </ul>
-            </div>
-          </div>
-        </section>
-
+    <div class="welcomeWrapper">
+      <div class="welcomePage-image">
+        <img src="./images/coding.jpg" alt="Coding Image">
       </div>
+      <div class="welcomePage-text">
+        <h3>Code anything from scratch.<br>
+            Start your new career as a <br>
+            full stack web application developer.</h3>
+      </div><br/>
+
+        <h5 class="pageHeading">Become a Web Developer with the SSD Program.</h2>
+        <section class="programIntroA">
+        <article class="articleA">  
+          <p>The SSD Web Programmer option is an eight-month, full-time web application development program offered at BCIT's the downtown Vancouver campus. 
+            This program is delivered through classroom instruction, hands-on lab work and individual and team projects. 
+          </p><br>               
+          <p>It prepares individuals for high-demand careers in the technical areas of web application development, programming, database and systems analysis. 
+            Students learn industry-ready skills through extensive hands-on practice in current scripting and coding techniques, object-oriented architecture patterns, 
+            application security and scalability, developer tools, and platforms for building complete web-based business applications from scratch.</p><br>
+        </article>
+        <article class="articleB">
+
+          <div class="row">
+            <div class="col-lg-4 col-md-6 col-sm-12">
+              <div class="card">
+                <div class="card-body column1">
+                  <span><i class="fa fa-calendar-check"></i></span>
+                  <h5 class="card-title"><strong>FULL-TIME PROGRAM REGISTRATIONS <br> OPEN NOW.</strong></h5>
+                  <a target="_blank" href="https://www.bcit.ca/study/programs/699ccertt#entry">Enrol Now <i class="fa fa-arrow-right"></i></a>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-lg-4 col-md-6 col-sm-12">
+              <div class="card">
+                <div class="card-body column2">
+                  <span class="eightyPercent">80%</span>
+                  <h5 class="card-title"></h5>
+                  <p class="card-text">
+                    of SSD graduates are hired as web application developers.
+                  </p>
+                  <a target="_blank" href="https://www.bcit.ca/study/programs/699ccertt">Learn more <i class="fa fa-arrow-right"></i></a>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-lg-4 col-md-6 col-sm-12">
+              <div class="card">
+                <div class="card-body column3">
+                  <span><i class="fa fa-info-circle"></i></span><br>
+                  <h5 class="card-title"><strong>WANT TO LEARN MORE?</strong></h5>
+                  <p class="card-text">
+                      Attend a free information session.
+                  </p>
+                  <a target="_blank" href="https://www.bcit.ca/study/programs/699ccertt">See upcoming sessions <i class="fa fa-arrow-right"></i></a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </article>
+
+        <br>
+        <br>
+        <article>
+            <p>Graduates of this certificate program may apply for acceptance into the BCIT Bachelor of Technology in Computer Systems (additional prerequisites are required). Laddering into the Computer Systems Technology Diploma program is not an option.  This program is delivered through classroom instruction, hands-on lab work and individual and team projects.</p><br/>
+            <p>While applicants are not required to have formal computer programming experience, they need to have a solid understanding of object-oriented programming. Applicants with no knowledge are advised to take a programming language course, such as introduction to object-oriented programming, C#, or Java. Speak with us today so we can help you prepare to join us.</p>
+        </article>
+      </section>
       <footer class="footer">
 
-        <div class="footerHeading"></div>
+        <div class="footerHeading">
+            <!-- <h5 class="text-uppercase">Connect</h5>
+            <h5 class="text-uppercase">Find</h5>
+            <h5 class="text-uppercase">Info </h5>
+            <h5 class="text-uppercase">Learn</h5> -->
+        </div>
 
         <div class="containerAndContact">
 
@@ -269,9 +257,9 @@
         </div>
         <!-- Copyright -->
     
-    </footer>   
-  </div>
-  <script>
+    </footer>
+    </div>
+      <script>
     var topNavBar = document.getElementById("myTopnav");
 
     function myFunction(){
